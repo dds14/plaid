@@ -109,6 +109,7 @@ app.get("/transactions", function(request, response, next) {
       } else {
         prettyPrintResponse(transactionsResponse);
         response.json({ error: null, transactions: transactionsResponse });
+        console.log(JSON.stringify(transactions));
       }
     }
   );
