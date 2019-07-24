@@ -2,7 +2,7 @@
 
 [Quickstart guide](https://plaid.com/docs/quickstart)
 
-``` bash
+```bash
 git clone https://github.com/plaid/quickstart.git
 cd quickstart/node
 npm install
